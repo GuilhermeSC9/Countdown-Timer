@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./background-paisage.jpg");
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    font-family: 'Heebo', sans-serif;
+    margin: 0;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+ h1{
+     font-weight: bold;
+     font-size: 4rem;
+     margin-top: 3rem;
+}
+
+ .countdown-container{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+ }
+
+ .big-text{
+     font-weight: bold;
+     font-size: 5.3rem;
+     line-height: 1;
+     margin: 0 2rem;
+ }
+
+ .countdown-el{
+     margin: 1rem 0.7rem;
+     text-align: center;
+}
+
+.countdown-el span{
+    font-weight: normal;
+    font-size: 1.3rem;
+
+}
